@@ -1,0 +1,96 @@
+body {
+  font-family: Roboto, sans-serif;
+  font-size: 14px;
+  letter-spacing: 0.03em;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+main {
+  flex-grow: 1;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul,
+h1,
+h2,
+h3,
+p {
+  font-size: 14;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+
+  @media screen and (max-width: 479px) {
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+
+  @media screen and (min-width: 480px) {
+    max-width: 480px;
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+
+  @media screen and (min-width: 768px) {
+    max-width: 768px;   
+  }
+
+  @media screen and (min-width: 1200px) {
+    max-width: 1200px;   
+  }
+}
+
+.section {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+.list {
+  list-style: none;
+  padding: 0px;
+  margin: 0px;
+}
+
+.title {
+  font-weight: 700;
+  letter-spacing: 0.03em;
+  text-align: center;
+  margin: 0;
+  font-size: 28px;
+  line-height: calc(33 / 26);
+  margin-bottom: 30px;
+}
+.button {
+  cursor: pointer;
+
+  font-family: inherit;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: calc(20 / 14);
+
+  text-align: center;
+  border-width: initial;
+  border-style: none;
+  border-color: initial;
+  border-image: initial;
+  border-radius: 8px;
+  padding: 6px 18px;
+
+  background-color: $primary-btn-color;
+
+  &:hover,
+  &:focus {
+    background-color: $accent-btn-cl;
+  }
+}
