@@ -82,7 +82,7 @@ function renderImagesCards(images) {
       image =>
         `<div class="photo-card">
   <a href="${image.largeImageURL}" class="gallery__item">
-    <img src="${image.webformatURL}" alt="${image.tags}" loading="lazy" />
+    <img class="img" src="${image.webformatURL}" alt="${image.tags}" loading="lazy" />
   </a>
   <div class="info">
     <p class="info-item"><b>Likes</b>${image.likes}</p>
