@@ -63,7 +63,6 @@ footer  {
           border-radius: 50%;
           color: var(--clr);
           box-shadow: 0 0 15px var(--clr);
-          // text-shadow: 0 0 5px var(--clr);
       }
 }
 .socials__link::before {
@@ -92,19 +91,3 @@ footer  {
   fill: currentColor;
   position: absolute;
 }
-
-// /* socials footer */
-// .socials-footer {
-  
-//   align-items: baseline;
-//   margin: 60px 0;
-//   @media screen and (min-width: 768px) {
-//       margin: 0;
-//   }    
-//   @media screen and (min-width: 1200px) {
-//       margin-left: 70px;
-//   }
-// }
-// .socials-footer__link {
-//    background-color: #fff;   
-// }
